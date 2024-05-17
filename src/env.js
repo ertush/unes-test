@@ -24,10 +24,10 @@ export const env = createEnv({
     ),
     KHIS_API_URL: z.string(),
     KHIS_API_USERNAME: z.string(),
-    KHIS_API_PASSWORD: z.string()
+    KHIS_API_PASSWORD: z.string(),
 
-    // DISCORD_CLIENT_ID: z.string(),
-    // DISCORD_CLIENT_SECRET: z.string(),
+    DISCORD_CLIENT_ID: z.string(),
+    DISCORD_CLIENT_SECRET: z.string(),
   },
 
   /**
@@ -50,9 +50,9 @@ export const env = createEnv({
     NEXTAUTH_URL: process.env.NEXTAUTH_URL,
     KHIS_API_URL: process.env.KHIS_API_URL,
     KHIS_API_USERNAME: process.env.KHIS_API_USERNAME,
-    KHIS_API_PASSWORD: process.env.KHIS_API_PASSWORD
-    // DISCORD_CLIENT_ID: process.env.DISCORD_CLIENT_ID,
-    // DISCORD_CLIENT_SECRET: process.env.DISCORD_CLIENT_SECRET,
+    KHIS_API_PASSWORD: process.env.KHIS_API_PASSWORD,
+    DISCORD_CLIENT_ID: process.env.DISCORD_CLIENT_ID,
+    DISCORD_CLIENT_SECRET: process.env.DISCORD_CLIENT_SECRET,
     
   },
   /**
