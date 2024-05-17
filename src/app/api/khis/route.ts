@@ -1,5 +1,5 @@
 import  * as converter  from "json-2-csv"
-import fs, { write } from "fs";
+import fs from "fs";
 import path from "path";
 // import { Readable } from "stream"
 

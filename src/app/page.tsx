@@ -1,4 +1,3 @@
-import { Console } from "console";
 import Link from "next/link";
 
 export default async function HomePage() {
