@@ -13,7 +13,7 @@ export async function GET() {
     const writeStream = fs.createWriteStream(filePath);
 
     try {
-       const json: any = await fetch(
+       const json = await fetch(
             `${process.env.KHIS_API_URL}`,
              {
                 headers: {
